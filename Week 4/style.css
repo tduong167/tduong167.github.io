@@ -1,0 +1,35 @@
+body {
+    background: pink;
+}
+
+nav {
+    background: black;
+    text-align: center;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    padding: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+} 
+
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+article header:hover {
+    color: green;
+    font-size: large;
+}
+tieu_de_phu {
+    font-style: italic;
+}
